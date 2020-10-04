@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03917398A8780175392720D5 /* Pods_AstrovaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B4F030B47CFD8D40A70D7E4 /* Pods_AstrovaTests.framework */; };
+		58006BE98C0B77F185D2D386 /* Pods_Astrova.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96433983D9D1B168C1CAAF7D /* Pods_Astrova.framework */; };
+		5A779E2D24BAC0300092E62D /* snapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A779E2C24BAC0300092E62D /* snapViewController.swift */; };
+		5A779E2F24BAC4E00092E62D /* getCospicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A779E2E24BAC4E00092E62D /* getCospicViewController.swift */; };
+		5A779E3124BADEC60092E62D /* selectRecipientTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A779E3024BADEC60092E62D /* selectRecipientTableViewController.swift */; };
+		5AA5072624BAA14D00837BEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA5072524BAA14D00837BEA /* AppDelegate.swift */; };
+		5AA5072824BAA14D00837BEA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA5072724BAA14D00837BEA /* SceneDelegate.swift */; };
+		5AA5072A24BAA14D00837BEA /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA5072924BAA14D00837BEA /* loginViewController.swift */; };
+		5AA5072D24BAA14D00837BEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AA5072B24BAA14D00837BEA /* Main.storyboard */; };
+		5AA5072F24BAA15000837BEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AA5072E24BAA15000837BEA /* Assets.xcassets */; };
+		5AA5073224BAA15000837BEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AA5073024BAA15000837BEA /* LaunchScreen.storyboard */; };
+		5AA5073D24BAA15000837BEA /* AstrovaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA5073C24BAA15000837BEA /* AstrovaTests.swift */; };
+		5AA5074824BAA15000837BEA /* AstrovaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA5074724BAA15000837BEA /* AstrovaUITests.swift */; };
+		5AAD96A324BAA376001AA4DD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5AAD96A224BAA376001AA4DD /* GoogleService-Info.plist */; };
+		5ADBCFE824BB0B690003AA8B /* viewCospicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADBCFE724BB0B690003AA8B /* viewCospicViewController.swift */; };
+		A0A2C77C5D691E49F2096C91 /* Pods_Astrova_AstrovaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB1E16B24BD0B5BD594B655 /* Pods_Astrova_AstrovaUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5AA5073924BAA15000837BEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AA5071A24BAA14D00837BEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AA5072124BAA14D00837BEA;
+			remoteInfo = Astrova;
+		};
+		5AA5074424BAA15000837BEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AA5071A24BAA14D00837BEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AA5072124BAA14D00837BEA;
+			remoteInfo = Astrova;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E1300D4D7892DA6C163CD27 /* Pods-Astrova.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Astrova.debug.xcconfig"; path = "Target Support Files/Pods-Astrova/Pods-Astrova.debug.xcconfig"; sourceTree = "<group>"; };
+		3B4F030B47CFD8D40A70D7E4 /* Pods_AstrovaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AstrovaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		567839876D9BC7C11ABD4B22 /* Pods-Astrova.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Astrova.release.xcconfig"; path = "Target Support Files/Pods-Astrova/Pods-Astrova.release.xcconfig"; sourceTree = "<group>"; };
+		5A779E2C24BAC0300092E62D /* snapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snapViewController.swift; sourceTree = "<group>"; };
+		5A779E2E24BAC4E00092E62D /* getCospicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getCospicViewController.swift; sourceTree = "<group>"; };
+		5A779E3024BADEC60092E62D /* selectRecipientTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectRecipientTableViewController.swift; sourceTree = "<group>"; };
+		5AA5072224BAA14D00837BEA /* Astrova.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Astrova.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AA5072524BAA14D00837BEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5AA5072724BAA14D00837BEA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5AA5072924BAA14D00837BEA /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		5AA5072C24BAA14D00837BEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5AA5072E24BAA15000837BEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5AA5073124BAA15000837BEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5AA5073324BAA15000837BEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AA5073824BAA15000837BEA /* AstrovaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstrovaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AA5073C24BAA15000837BEA /* AstrovaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstrovaTests.swift; sourceTree = "<group>"; };
+		5AA5073E24BAA15000837BEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AA5074324BAA15000837BEA /* AstrovaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstrovaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AA5074724BAA15000837BEA /* AstrovaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstrovaUITests.swift; sourceTree = "<group>"; };
+		5AA5074924BAA15000837BEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AAD96A224BAA376001AA4DD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5ADBCFE724BB0B690003AA8B /* viewCospicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewCospicViewController.swift; sourceTree = "<group>"; };
+		7CB1E16B24BD0B5BD594B655 /* Pods_Astrova_AstrovaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Astrova_AstrovaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96433983D9D1B168C1CAAF7D /* Pods_Astrova.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Astrova.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C725230C87E292EBE072347 /* Pods-AstrovaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AstrovaTests.release.xcconfig"; path = "Target Support Files/Pods-AstrovaTests/Pods-AstrovaTests.release.xcconfig"; sourceTree = "<group>"; };
+		B5FE6266DF6C8182D7C4F463 /* Pods-Astrova-AstrovaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Astrova-AstrovaUITests.release.xcconfig"; path = "Target Support Files/Pods-Astrova-AstrovaUITests/Pods-Astrova-AstrovaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BDA5F5F9A82F1878DEFEA0C9 /* Pods-AstrovaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AstrovaTests.debug.xcconfig"; path = "Target Support Files/Pods-AstrovaTests/Pods-AstrovaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F231EAFE88B6B6163AEE2751 /* Pods-Astrova-AstrovaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Astrova-AstrovaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Astrova-AstrovaUITests/Pods-Astrova-AstrovaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AA5071F24BAA14D00837BEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58006BE98C0B77F185D2D386 /* Pods_Astrova.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AA5073524BAA15000837BEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03917398A8780175392720D5 /* Pods_AstrovaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AA5074024BAA15000837BEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0A2C77C5D691E49F2096C91 /* Pods_Astrova_AstrovaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E433B72D12E9CA04A3141DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E1300D4D7892DA6C163CD27 /* Pods-Astrova.debug.xcconfig */,
+				567839876D9BC7C11ABD4B22 /* Pods-Astrova.release.xcconfig */,
+				F231EAFE88B6B6163AEE2751 /* Pods-Astrova-AstrovaUITests.debug.xcconfig */,
+				B5FE6266DF6C8182D7C4F463 /* Pods-Astrova-AstrovaUITests.release.xcconfig */,
+				BDA5F5F9A82F1878DEFEA0C9 /* Pods-AstrovaTests.debug.xcconfig */,
+				9C725230C87E292EBE072347 /* Pods-AstrovaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5AA5071924BAA14D00837BEA = {
+			isa = PBXGroup;
+			children = (
+				5AA5072424BAA14D00837BEA /* Astrova */,
+				5AA5073B24BAA15000837BEA /* AstrovaTests */,
+				5AA5074624BAA15000837BEA /* AstrovaUITests */,
+				5AA5072324BAA14D00837BEA /* Products */,
+				0E433B72D12E9CA04A3141DB /* Pods */,
+				CB6C292E68DF84F205C1123F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5AA5072324BAA14D00837BEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AA5072224BAA14D00837BEA /* Astrova.app */,
+				5AA5073824BAA15000837BEA /* AstrovaTests.xctest */,
+				5AA5074324BAA15000837BEA /* AstrovaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AA5072424BAA14D00837BEA /* Astrova */ = {
+			isa = PBXGroup;
+			children = (
+				5AA5072524BAA14D00837BEA /* AppDelegate.swift */,
+				5AAD96A224BAA376001AA4DD /* GoogleService-Info.plist */,
+				5AA5072724BAA14D00837BEA /* SceneDelegate.swift */,
+				5AA5072924BAA14D00837BEA /* loginViewController.swift */,
+				5AA5072B24BAA14D00837BEA /* Main.storyboard */,
+				5ADBCFE724BB0B690003AA8B /* viewCospicViewController.swift */,
+				5A779E2E24BAC4E00092E62D /* getCospicViewController.swift */,
+				5A779E3024BADEC60092E62D /* selectRecipientTableViewController.swift */,
+				5A779E2C24BAC0300092E62D /* snapViewController.swift */,
+				5AA5072E24BAA15000837BEA /* Assets.xcassets */,
+				5AA5073024BAA15000837BEA /* LaunchScreen.storyboard */,
+				5AA5073324BAA15000837BEA /* Info.plist */,
+			);
+			path = Astrova;
+			sourceTree = "<group>";
+		};
+		5AA5073B24BAA15000837BEA /* AstrovaTests */ = {
+			isa = PBXGroup;
+			children = (
+				5AA5073C24BAA15000837BEA /* AstrovaTests.swift */,
+				5AA5073E24BAA15000837BEA /* Info.plist */,
+			);
+			path = AstrovaTests;
+			sourceTree = "<group>";
+		};
+		5AA5074624BAA15000837BEA /* AstrovaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5AA5074724BAA15000837BEA /* AstrovaUITests.swift */,
+				5AA5074924BAA15000837BEA /* Info.plist */,
+			);
+			path = AstrovaUITests;
+			sourceTree = "<group>";
+		};
+		CB6C292E68DF84F205C1123F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96433983D9D1B168C1CAAF7D /* Pods_Astrova.framework */,
+				7CB1E16B24BD0B5BD594B655 /* Pods_Astrova_AstrovaUITests.framework */,
+				3B4F030B47CFD8D40A70D7E4 /* Pods_AstrovaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AA5072124BAA14D00837BEA /* Astrova */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AA5074C24BAA15000837BEA /* Build configuration list for PBXNativeTarget "Astrova" */;
+			buildPhases = (
+				AFE161FEA74CB750187284C6 /* [CP] Check Pods Manifest.lock */,
+				5AA5071E24BAA14D00837BEA /* Sources */,
+				5AA5071F24BAA14D00837BEA /* Frameworks */,
+				5AA5072024BAA14D00837BEA /* Resources */,
+				C731E723B477BB269318E4E8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Astrova;
+			productName = Astrova;
+			productReference = 5AA5072224BAA14D00837BEA /* Astrova.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5AA5073724BAA15000837BEA /* AstrovaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AA5074F24BAA15000837BEA /* Build configuration list for PBXNativeTarget "AstrovaTests" */;
+			buildPhases = (
+				7DD906AB072AAA1BB24FE766 /* [CP] Check Pods Manifest.lock */,
+				5AA5073424BAA15000837BEA /* Sources */,
+				5AA5073524BAA15000837BEA /* Frameworks */,
+				5AA5073624BAA15000837BEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AA5073A24BAA15000837BEA /* PBXTargetDependency */,
+			);
+			name = AstrovaTests;
+			productName = AstrovaTests;
+			productReference = 5AA5073824BAA15000837BEA /* AstrovaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5AA5074224BAA15000837BEA /* AstrovaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AA5075224BAA15000837BEA /* Build configuration list for PBXNativeTarget "AstrovaUITests" */;
+			buildPhases = (
+				A6894D1C2C2DCC2D95017EAA /* [CP] Check Pods Manifest.lock */,
+				5AA5073F24BAA15000837BEA /* Sources */,
+				5AA5074024BAA15000837BEA /* Frameworks */,
+				5AA5074124BAA15000837BEA /* Resources */,
+				7551D35F07457C137C4159EC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AA5074524BAA15000837BEA /* PBXTargetDependency */,
+			);
+			name = AstrovaUITests;
+			productName = AstrovaUITests;
+			productReference = 5AA5074324BAA15000837BEA /* AstrovaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AA5071A24BAA14D00837BEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Pranav Teegavarapu";
+				TargetAttributes = {
+					5AA5072124BAA14D00837BEA = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					5AA5073724BAA15000837BEA = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 5AA5072124BAA14D00837BEA;
+					};
+					5AA5074224BAA15000837BEA = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 5AA5072124BAA14D00837BEA;
+					};
+				};
+			};
+			buildConfigurationList = 5AA5071D24BAA14D00837BEA /* Build configuration list for PBXProject "Astrova" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5AA5071924BAA14D00837BEA;
+			productRefGroup = 5AA5072324BAA14D00837BEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AA5072124BAA14D00837BEA /* Astrova */,
+				5AA5073724BAA15000837BEA /* AstrovaTests */,
+				5AA5074224BAA15000837BEA /* AstrovaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AA5072024BAA14D00837BEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AA5073224BAA15000837BEA /* LaunchScreen.storyboard in Resources */,
+				5AAD96A324BAA376001AA4DD /* GoogleService-Info.plist in Resources */,
+				5AA5072F24BAA15000837BEA /* Assets.xcassets in Resources */,
+				5AA5072D24BAA14D00837BEA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AA5073624BAA15000837BEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AA5074124BAA15000837BEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7551D35F07457C137C4159EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Astrova-AstrovaUITests/Pods-Astrova-AstrovaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Astrova-AstrovaUITests/Pods-Astrova-AstrovaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Astrova-AstrovaUITests/Pods-Astrova-AstrovaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DD906AB072AAA1BB24FE766 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AstrovaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6894D1C2C2DCC2D95017EAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Astrova-AstrovaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFE161FEA74CB750187284C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Astrova-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C731E723B477BB269318E4E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Astrova/Pods-Astrova-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Astrova/Pods-Astrova-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Astrova/Pods-Astrova-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AA5071E24BAA14D00837BEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A779E2D24BAC0300092E62D /* snapViewController.swift in Sources */,
+				5ADBCFE824BB0B690003AA8B /* viewCospicViewController.swift in Sources */,
+				5A779E3124BADEC60092E62D /* selectRecipientTableViewController.swift in Sources */,
+				5AA5072A24BAA14D00837BEA /* loginViewController.swift in Sources */,
+				5AA5072624BAA14D00837BEA /* AppDelegate.swift in Sources */,
+				5AA5072824BAA14D00837BEA /* SceneDelegate.swift in Sources */,
+				5A779E2F24BAC4E00092E62D /* getCospicViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AA5073424BAA15000837BEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AA5073D24BAA15000837BEA /* AstrovaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AA5073F24BAA15000837BEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AA5074824BAA15000837BEA /* AstrovaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5AA5073A24BAA15000837BEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AA5072124BAA14D00837BEA /* Astrova */;
+			targetProxy = 5AA5073924BAA15000837BEA /* PBXContainerItemProxy */;
+		};
+		5AA5074524BAA15000837BEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AA5072124BAA14D00837BEA /* Astrova */;
+			targetProxy = 5AA5074424BAA15000837BEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5AA5072B24BAA14D00837BEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AA5072C24BAA14D00837BEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5AA5073024BAA15000837BEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AA5073124BAA15000837BEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5AA5074A24BAA15000837BEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5AA5074B24BAA15000837BEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5AA5074D24BAA15000837BEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E1300D4D7892DA6C163CD27 /* Pods-Astrova.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94F7QC94FP;
+				INFOPLIST_FILE = Astrova/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pranavteegavarapu.Astrova;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5AA5074E24BAA15000837BEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 567839876D9BC7C11ABD4B22 /* Pods-Astrova.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94F7QC94FP;
+				INFOPLIST_FILE = Astrova/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pranavteegavarapu.Astrova;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5AA5075024BAA15000837BEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDA5F5F9A82F1878DEFEA0C9 /* Pods-AstrovaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94F7QC94FP;
+				INFOPLIST_FILE = AstrovaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pranavteegavarapu.AstrovaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Astrova.app/Astrova";
+			};
+			name = Debug;
+		};
+		5AA5075124BAA15000837BEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C725230C87E292EBE072347 /* Pods-AstrovaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94F7QC94FP;
+				INFOPLIST_FILE = AstrovaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pranavteegavarapu.AstrovaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Astrova.app/Astrova";
+			};
+			name = Release;
+		};
+		5AA5075324BAA15000837BEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F231EAFE88B6B6163AEE2751 /* Pods-Astrova-AstrovaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94F7QC94FP;
+				INFOPLIST_FILE = AstrovaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pranavteegavarapu.AstrovaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Astrova;
+			};
+			name = Debug;
+		};
+		5AA5075424BAA15000837BEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5FE6266DF6C8182D7C4F463 /* Pods-Astrova-AstrovaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94F7QC94FP;
+				INFOPLIST_FILE = AstrovaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pranavteegavarapu.AstrovaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Astrova;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AA5071D24BAA14D00837BEA /* Build configuration list for PBXProject "Astrova" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AA5074A24BAA15000837BEA /* Debug */,
+				5AA5074B24BAA15000837BEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AA5074C24BAA15000837BEA /* Build configuration list for PBXNativeTarget "Astrova" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AA5074D24BAA15000837BEA /* Debug */,
+				5AA5074E24BAA15000837BEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AA5074F24BAA15000837BEA /* Build configuration list for PBXNativeTarget "AstrovaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AA5075024BAA15000837BEA /* Debug */,
+				5AA5075124BAA15000837BEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AA5075224BAA15000837BEA /* Build configuration list for PBXNativeTarget "AstrovaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AA5075324BAA15000837BEA /* Debug */,
+				5AA5075424BAA15000837BEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AA5071A24BAA14D00837BEA /* Project object */;
+}
